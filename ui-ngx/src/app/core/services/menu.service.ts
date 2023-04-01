@@ -25,6 +25,7 @@ import { BehaviorSubject, Observable, Subject } from 'rxjs';
 import { Authority } from '@shared/models/authority.enum';
 import { guid } from '@core/utils';
 import { AuthState } from '@core/auth/auth.models';
+import { TurnedIn } from '@material-ui/icons';
 
 @Injectable({
   providedIn: 'root'
@@ -108,7 +109,6 @@ export class MenuService {
         name: 'admin.system-settings',
         type: 'toggle',
         path: '/settings',
-        height: '320px',
         icon: 'settings',
         pages: [
           {
@@ -296,7 +296,6 @@ export class MenuService {
         name: 'profiles.profiles',
         type: 'toggle',
         path: '/profiles',
-        height: '80px',
         icon: 'badge',
         pages: [
           {
@@ -304,16 +303,15 @@ export class MenuService {
             name: 'device-profile.device-profiles',
             type: 'link',
             path: '/profiles/deviceProfiles',
-            icon: 'mdi:alpha-d-box',
-            isMdiIcon: true
+            icon: 'badge',
           },
           {
             id: guid(),
             name: 'asset-profile.asset-profiles',
             type: 'link',
             path: '/profiles/assetProfiles',
-            icon: 'mdi:alpha-a-box',
-            isMdiIcon: true
+            icon: 'badge',
+            isMdiIcon: false
           }
         ]
       },
@@ -346,7 +344,6 @@ export class MenuService {
           name: 'edge.management',
           type: 'toggle',
           path: '/edgeManagement',
-          height: '40px',
           icon: 'settings_input_antenna',
           pages: [
             {
@@ -401,7 +398,7 @@ export class MenuService {
         name: 'admin.system-settings',
         type: 'toggle',
         path: '/settings',
-        height: '160px',
+        height: '240px',
         icon: 'settings',
         pages: [
           {
