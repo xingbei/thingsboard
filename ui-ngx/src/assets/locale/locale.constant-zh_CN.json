@@ -65,7 +65,7 @@
     },
     "aggregation": {
         "aggregation": "聚合",
-        "function": "数据聚合功能",
+        "function": "数据聚合计算",
         "limit": "限制数",
         "group-interval": "分组间隔",
         "min": "最小值",
@@ -2873,8 +2873,8 @@
     },
     "rulechain": {
         "rulechain": "规则链",
-        "rulechains": "规则链库",
-        "root": "是否根链",
+        "rulechains": "规则链编排",
+        "root": "根链",
         "delete": "删除规则链",
         "name": "名称",
         "name-required": "名称必填。",
@@ -3321,7 +3321,7 @@
         "days": "天",
         "hours": "小时",
         "minutes": "分钟",
-        "seconds": "秒",
+        "seconds": "秒钟",
         "advanced": "高级",
         "predefined": {
             "yesterday": "昨天",
@@ -3346,7 +3346,7 @@
     },
     "timeunit": {
         "milliseconds": "毫秒",
-        "seconds": "秒",
+        "seconds": "秒钟",
         "minutes": "分钟",
         "hours": "小时",
         "days": "天"
@@ -3356,16 +3356,16 @@
         "hours": "{ hours, plural, 0 {- 小时 } 1 {# 小时 } other {# 小时 } }",
         "minutes": "{ minutes, plural, 0 {- 分 } 1 {# 分 } other {# 分 } }",
         "seconds": "{ seconds, plural, 0 {- 秒 } 1 {# 秒 } other {# 秒 } }",
-        "realtime": "实时",
-        "history": "历史",
-        "last-prefix": "最后",
+        "realtime": "实时数据",
+        "history": "历史数据",
+        "last-prefix": "最近区间",
         "period": "从 {{ startTime }} 到 {{ endTime }}",
         "edit": "编辑时间窗口",
         "date-range": "日期范围",
-        "last": "最后",
-        "time-period": "时间段",
+        "last": "最近区间",
+        "time-period": "时间范围",
         "hide": "隐藏",
-        "interval": "区间"
+        "interval": "自定区间"
     },
     "user": {
         "user": "用户",
