@@ -508,7 +508,7 @@
     },
     "asset": {
         "asset": "资产",
-        "assets": "资产",
+        "assets": "资产列表",
         "management": "资产管理",
         "view-assets": "查看资产",
         "add": "添加资产",
@@ -761,7 +761,7 @@
     },
     "customer": {
         "customer": "客户",
-        "customers": "客户",
+        "customers": "客户列表",
         "management": "客户管理",
         "dashboard": "客户仪表板",
         "dashboards": "客户仪表板",
@@ -1072,7 +1072,7 @@
     "device": {
         "device": "设备",
         "device-required": "设备必填",
-        "devices": "设备",
+        "devices": "设备列表",
         "management": "设备管理",
         "view-devices": "查看设备",
         "device-alias": "设备别名",
