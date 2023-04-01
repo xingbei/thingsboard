@@ -485,7 +485,7 @@
         "filter-type-device-search-query-description": "类型为 {{deviceTypes}} 且具有 {{relationType}} 关联 {{direction}} {{rootEntity}} 的设备",
         "filter-type-entity-view-search-query": "实体视图搜索查询",
         "filter-type-entity-view-search-query-description": "类型为 {{entityViewTypes}} 且具有 {{relationType}} 关联 {{direction}} {{rootEntity}} 的实体视图",
-        "filter-type-apiUsageState": "Api使用状态",
+        "filter-type-apiUsageState": "API使用状态",
         "filter-type-edge-search-query": "边缘搜索查询",
         "filter-type-edge-search-query-description": "类型为 {{edgeTypes}} 且具有 {{relationType}} 关联 {{direction}} {{rootEntity}} 的边缘",
         "entity-filter": "实体筛选器",
@@ -617,7 +617,7 @@
         "no-telemetry-text": "未找到遥测数据"
     },
     "api-usage": {
-        "api-usage": "Api统计",
+        "api-usage": "API使用统计",
         "alarm": "警报",
         "alarms-created": "创建警报数",
         "alarms-created-daily-activity": "每天产生的警报",
@@ -1926,7 +1926,7 @@
         "list-of-edges": "{ count, plural, 1 {1 个边缘} other {列表 # 个边缘} }",
         "edge-name-starts-with": "以 '{{prefix}}' 开头的边缘",
         "type-tb-resource": "资源",
-        "type-ota-package": "OTA包"
+        "type-ota-package": "OTA packages"
     },
     "entity-field": {
         "created-time": "创建时间",
@@ -2684,8 +2684,8 @@
         "no-packages-text": "未找到包",
         "no-software-matching": "未找到匹配 '{{entity}}' 的兼容软件OTA升级包。",
         "no-software-text": "没有提供兼容的软件OTA升级包。",
-        "ota-update": "OTA 升级",
-        "ota-update-details": "OTA 升级详情",
+        "ota-update": "OTA UPGRADE",
+        "ota-update-details": "OTA UPGRADE 详情",
         "ota-updates": "OTA 升级",
         "package-type": "软件包类型",
         "packages-repository": "软件包仓库",
@@ -2859,7 +2859,7 @@
         "idCopiedMessage": "拖拽资源文件或",
         "no-resource-matching": "未找到与 '{{widgetsBundle}}' 匹配的资源。",
         "no-resource-text": "未找到资源",
-        "open-widgets-bundle": "打开部件库",
+        "open-widgets-bundle": "打开组件资源",
         "resource": "资源",
         "resource-library-details": "资源库详情",
         "resource-type": "资源类型",
@@ -3509,7 +3509,7 @@
         "auto-commit-settings-read-only-hint": "自动提交功能不适用于存储库设置中启用的只读选项。"
     },
     "widget": {
-        "widget-library": "部件库",
+        "widget-library": "组件资源",
         "widget-bundle": "部件包",
         "all-bundles": "All bundles",
         "select-widgets-bundle": "选择部件包",
