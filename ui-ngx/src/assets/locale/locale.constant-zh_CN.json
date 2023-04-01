@@ -1775,7 +1775,7 @@
         "type-user": "用户",
         "type-customer": "客户",
         "type-relation": "关联",
-        "type-widgets-bundle": "部件包",
+        "type-widgets-bundle": "仪表部件",
         "type-widgets-type": "部件类型",
         "type-admin-settings": "管理员设置",
         "action-type-added": "增加",
@@ -2859,7 +2859,7 @@
         "idCopiedMessage": "拖拽资源文件或",
         "no-resource-matching": "未找到与 '{{widgetsBundle}}' 匹配的资源。",
         "no-resource-text": "未找到资源",
-        "open-widgets-bundle": "打开组件资源",
+        "open-widgets-bundle": "打开部件资源",
         "resource": "资源",
         "resource-library-details": "资源库详情",
         "resource-type": "资源类型",
@@ -3509,7 +3509,7 @@
         "auto-commit-settings-read-only-hint": "自动提交功能不适用于存储库设置中启用的只读选项。"
     },
     "widget": {
-        "widget-library": "组件资源",
+        "widget-library": "部件资源",
         "widget-bundle": "部件包",
         "all-bundles": "All bundles",
         "select-widgets-bundle": "选择部件包",
