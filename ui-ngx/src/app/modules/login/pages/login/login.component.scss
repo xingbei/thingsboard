@@ -15,16 +15,35 @@
  */
 @import '../../../../../scss/constants';
 
+
+
+
 :host {
   display: flex;
   flex: 1 1 0;
-  .tb-login-content {
-    margin-top: 36px;
-    margin-bottom: 76px;
+  .tb-login-content-left {
+    margin-top: 0x;
+    margin-bottom: 0px;
     background-color: #eee;
+  }
+
+  .tb-logo-font{
+    font: 1em sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    color: #6C63FF;
+    padding-left: 15px;
+    text-align: left;
+ 
+  }
+
+  .tb-login-content-right {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #fff;
     .tb-login-form {
       @media #{$mat-gt-xs} {
-        width: 550px !important;
+        width: 450px !important;
       }
 
       .forgot-password {
@@ -35,7 +54,7 @@
       }
 
       .tb-action-button{
-        padding: 20px 0 16px;
+        padding: 10px 0 10px;
       }
     }
 
