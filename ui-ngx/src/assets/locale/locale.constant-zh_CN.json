@@ -485,7 +485,7 @@
         "filter-type-device-search-query-description": "类型为 {{deviceTypes}} 且具有 {{relationType}} 关联 {{direction}} {{rootEntity}} 的设备",
         "filter-type-entity-view-search-query": "实体视图搜索查询",
         "filter-type-entity-view-search-query-description": "类型为 {{entityViewTypes}} 且具有 {{relationType}} 关联 {{direction}} {{rootEntity}} 的实体视图",
-        "filter-type-apiUsageState": "API使用状态",
+        "filter-type-apiUsageState": "接口使用状态",
         "filter-type-edge-search-query": "边缘搜索查询",
         "filter-type-edge-search-query-description": "类型为 {{edgeTypes}} 且具有 {{relationType}} 关联 {{direction}} {{rootEntity}} 的边缘",
         "entity-filter": "实体筛选器",
@@ -617,7 +617,7 @@
         "no-telemetry-text": "未找到遥测数据"
     },
     "api-usage": {
-        "api-usage": "API使用统计",
+        "api-usage": "接口调用统计",
         "alarm": "警报",
         "alarms-created": "创建警报数",
         "alarms-created-daily-activity": "每天产生的警报",
@@ -1920,7 +1920,7 @@
         "no-entities-prompt": "未找到实体",
         "no-data": "无数据",
         "columns-to-display": "要显示的列",
-        "type-api-usage-state": "Api使用状态",
+        "type-api-usage-state": "接口使用状态",
         "type-edge": "边缘",
         "type-edges": "边缘",
         "list-of-edges": "{ count, plural, 1 {1 个边缘} other {列表 # 个边缘} }",
