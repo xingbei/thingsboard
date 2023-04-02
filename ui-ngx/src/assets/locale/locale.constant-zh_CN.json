@@ -1233,8 +1233,8 @@
         "unassign-devices-from-edge-text": "确认后,设备将被取消分配，边缘将无法访问。"
     },
     "asset-profile": {
-        "asset-profile": "资产配置",
-        "asset-profiles": "资产配置",
+        "asset-profile": "资产配置模板",
+        "asset-profiles": "资产配置模板",
         "all-asset-profiles": "全部",
         "add": "添加资产配置",
         "edit": "编辑资产配置",
@@ -1276,8 +1276,8 @@
         "invalid-asset-profile-file-error": "无法导入资产配置：无效的资产配置数据结构。"
     },
     "device-profile": {
-        "device-profile": "设备配置",
-        "device-profiles": "设备配置",
+        "device-profile": "设备配置模板",
+        "device-profiles": "设备配置模板",
         "all-device-profiles": "全部",
         "add": "添加设备配置",
         "edit": "编辑设备配置",
@@ -2725,7 +2725,7 @@
         "tokenCopiedWarnMessage": "JWT 令牌已过期！请刷新页面。"
     },
     "profiles": {
-        "profiles": "配置"
+        "profiles": "通用配置"
     },
     "security": {
         "security": "安全",
